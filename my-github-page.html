@@ -3,56 +3,99 @@
 <html>
     <head>
         <title> My Portfolio</title>
-        <style>
-            #navigation_bar{
-                display: flex;
-                border-style:solid;
-                flex-wrap:wrap;
-                align-content: stretch;
-            }
-    
-            .flex-item {
-                border-style: hidden;
-            }
-
-            .navigation {
-                text-align: center;
-                font-family: Arial, sans-serif;
-            }
-
-            #featured{
-                display: flex;
-                border-style:solid;
-                flex-wrap:wrap;
-                align-content: stretch;
-            }
-
-    
-        </style>
-    
+        <link rel = "stylesheet" type="text/css" href="./style.css">
+        <link rel="shortcut icon" href="./images/logo.png">
     </head>
 
     <body>
-        <div id="navigation_bar">
+        <div class ="navigation">
+            <div style=" width: 70px;">
+                <img style = "padding: 20px; max-width: 45%;" src = "./images/logo.png">
+            </div>
+            <div style = "flex: 3;">
+                <h1 class = "header">COMIA'S PORTFOLIO </h1>
+            </div>
+            <div style="flex: 2;">
+                <ul>
+                    <li>ABOUT</li>
+                    <li>PROJECTS</li>
+                    <li>SKILLS</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+        </div>
 
-            <div class="flex-item" style="flex: 4;">
-                <h1 style="color: cadetblue; font-family: Arial, sans-serif;">COMIA</h1>
+        <div class="features">
+            <div style=" width: 500px;" >
+                <img id = "featured_photo" src="./images/my_photo.jpg">
             </div>
-            <div class="flex-item" style="flex: 1;">
-                <h1 class= "navigation"> HOME </h1> 
+            <div>
+                <h1 class="header" style="padding:0">ABOUT ME</h1>
+                <p class = "autobiography">Hi, I'm Ron, a sophomore student from the University of the Philippines Los Baños.</p>
+                <p class = "autobiography">I am a 20-year-old Computer Science student who is passionate about programming</p>
+                <p class = "autobiography">and digital media. I am associated with several organizations that help me gain</p>
+                <p class = "autobiography">experiences and improve my soft skills. I usually play videogames and watch sitcoms</p>
+                <p class = "autobiography">during my free time. Feel free to explore my portfolio and know more about me!</p>
             </div>
-            <div class="flex-item" style="flex: 1;">
-                   <h1 class= "navigation"> PROJECTS </h1>
+        </div>
+
+        <h1 class= "header" style="background-color: #1b263b; text-align: center; color: #c9ada7;">PROJECTS</h1>
+        <div class="features">
+            <div>
+                <img style = "padding: 25px;" src = "./images/project_1.png">
             </div>
-            <div class="flex-item" style="flex: 1;">
-                <div class="flex-item" >
-                <h1 class= "navigation"> SKILLS </h1>
+            <div>
+                <h2 class="header" style="font-size: 20px; padding: 5px;">UPLB ELBNB</h2>
+                <p class = "autobiography">Standalone E-commerce Application</p>
+                <p class = "autobiography">Dedicated to the purposes of “Elbids”</p>
+                
+
+            </div>            
+            <div>
+                <img style = "padding: 25px;" src="./images/project_2.png">
+            </div>
+            <div>
+                <h2 class="header" style="font-size: 20px; padding: 5px;">COSMIC CHOWDOWN</h2>
+                <p class = "autobiography" A>game aims to provide a satisfying and enjoyable</p>
+                <p class = "autobiography" A>arcade space experience by focusing on skill development.</p>
+            </div>
+        </div>
+
+        <h1 class= "header" style="background-color: #1b263b; text-align: center; color: #c9ada7;">SKILLS</h1>
+        <div class="features">
+
+            <div style="padding: 50px;">
+                <h2 class="header" style="font-size: 20px; padding: 5px; ">SOFT SKILLS</h2>
+                <ul>
+                    <li>Public Speaking</li>
+                    <li>Leadership</li>
+                    <li>Creativity</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </div>
+
+            <div style="padding: 50px;">
+                <h2 class="header" style="font-size: 20px; padding: 5px; ">HARD SKILLS</h2>
+                <ul>
+                    <li>Software: Microsoft Office</li>
+                    <li>Digital Media: Video editing</li>
+                    <li>Programming: Python, C, and Java</li>
+                    <li>Web Development: HTML, JavaScript, CSS</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div style=" width: 250px;">
+                <img style = "padding: 20px 0px 0px 200px; max-width: 25%;" src = "./images/logo.png">
+            </div>
+            <div style = "padding: 35px;">
+                <h3>EMAIL: rdxcomia@gmail.com</h3>
+                <h3>CONTACT NUMBER: 0935 908 0869</h3>
+                <h3>https://github.com/denmt</h3>
             </div>
 
         </div>
-
     </body>
-
-
 
 </html>
